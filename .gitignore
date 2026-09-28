@@ -1,0 +1,14 @@
+# Local simulation archives and diagnostic output are never publication data.
+*.log
+*.out
+*.err
+*.npz
+*.h5
+*.hdf5
+*.rkf
+*.results/
+__pycache__/
+*.py[cod]
+
+# Machine-specific source-log manifests.
+**/density_manifest.csv

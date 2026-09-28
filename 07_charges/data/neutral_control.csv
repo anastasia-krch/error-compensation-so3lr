@@ -1,0 +1,14 @@
+# Molecular dipole, SO3LR versus DFT at identical geometries.
+# DFT: PBE-D3(BJ)/TZP, all-electron, geometry-optimised in AMS/ADF.
+# The dipole is used because it needs no partitioning of the electron density.
+# The ion-pair row uses 50 geometries.
+# Its ratio is the mean of the per-geometry SO3LR/DFT ratios.
+species,label,charged,mu_dft_D,mu_so3lr_D,ratio,n_geometries
+ch3cn,CH$_3$CN,False,4.0090068,4.033380982963739,1.006079855729788,1
+ch3cooh,CH$_3$COOH,False,1.72174517,1.7352892982515091,1.007866511541606,1
+methylimidazole,1-methylimidazole,False,4.18197209,4.349772278872914,1.0401246553687338,1
+ch3sh,CH$_3$SH,False,1.51235274,1.5813554657636704,1.045626079114103,1
+ch3sch3,CH$_3$SCH$_3$,False,1.53760961,1.630787601449261,1.0605992514896294,1
+h2co,H$_2$CO,False,2.22735537,2.3800148911583667,1.068538466386873,1
+hntf2,HNTf$_2$,False,2.59239597,3.4729747691917168,1.3396775837418529,1
+emim_ntf2_pair,EMIM$^+$/NTf$_2^-$,True,19.7384887596,9.458935626274739,0.47739382506613154,50
